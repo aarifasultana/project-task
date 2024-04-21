@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://mrwallpaper.com/images/high/vibrant-green-monstera-plant-e1iah2l3t9s9yp5z.webp') no-repeat;
+            background-position: center;
+            background-color: rgb(25, 95, 25);
+            border-radius: 34px;
+        }
+        
+        .top {
+            position: absolute;
+            right: 25%;
+            top: 15%;
+            width: 600px;
+            background: transparent;
+            border: none;
+            backdrop-filter: blur(10px);
+            box-shadow: black;
+            color: #e6d5d5;
+            border-radius: 34px;
+            padding: 20px 40px;
+        }
+        .top h1{
+            font-family:sans-serif;
+            font-size: 50px;
+            text-align: center;
+        }
+        .top h4{
+            text-align: center;
+            margin: 20px 0 15px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .input-bdn{
+            position: relative;
+            left: 129px;
+            width: 380px;
+            height: 60;
+            border-bottom: 1px solid #fff;
+            margin: 30px 0;
+        }
+        .bdn{
+            position: relative;
+            left: 250px;
+            width: 100px;
+            height: 45px;
+            background: green;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 34px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .input-bdn input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: medium;
+            font-weight:400;
+        }
+        .input-bdn i{
+            position: absolute;
+            right: 3%;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+        }
+        .container .login-link{
+            text-align: center;
+            font-weight: 300;
+        }
+        .login-link a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .login-link p a:hover{
+            text-decoration: underline;
+        }
+        </style>
+           
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="top">
+                <h1>Get started</h1>
+                <h4>Register here to book your safari</h4>
+                <div class="input-bdn">
+                    Name <input type="text">
+                    <i class='bx bx-user'></i>
+                </div>
+                <div class="input-bdn">
+                Mobile <input type="number">
+                <i class='bx bx-mobile'></i>
+                </div>
+                <div class="input-bdn">
+                Email <input type="email">
+                <i class='bx bx-envelope'></i>
+                </div>
+                <button type="submit"class="bdn">Submit</button>
+                <div class="login-link">
+                    <p>Already have an account?&nbsp;<a href="login-page.html">Login here!</a></p>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
